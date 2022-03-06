@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f4;
+    font-size: 14.5px;
+    color: #676a6c;
+    overflow-x: hidden;
+}
+
+table td {
+    vertical-align: middle !important;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #1ab394;
+    border-color: #1ab394;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: #18a689;
+    border-color: #18a689;
+    color: #FFFFFF;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus {
+    color: #fff;
+    background-color: #ec4758;
+    border-color: #ec4758;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.428571429;
+}
+
+.page-item.active .page-link {
+    background-color: #18a689;
+    border-color: #18a689;
+}
+
+.page-link {
+    color: #18a689;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control::file-selector-button {
+    color: #FFFFFF;
+    background-color: #18a689;
+}
+
+@media (min-width: 992px) {
+    .navbar li {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+}
